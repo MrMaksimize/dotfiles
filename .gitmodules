@@ -1,0 +1,3 @@
+[submodule "git/hooks/drupal_pre_commit"]
+	path = git/hooks/drupal_pre_commit
+	url = http://git.drupal.org/sandbox/bevan.wishart/1441638.git
