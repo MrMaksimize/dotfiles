@@ -14,6 +14,13 @@ alias s="subl ."
 alias o="open"
 alias oo="open ."
 
+# Custom
+#alias drupalcs='phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt'
+#alias sublime='open -a Sublime\ Text\ 2'
+#alias git=hub
+#alias del-all-branches="git push origin :$1"
+#alias gg='git grep -n'
+
 # List all files colorized in long format
 alias l="ls -Gl"
 
