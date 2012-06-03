@@ -125,5 +125,5 @@ dvcs_function="
 
 #PS1="\[${BOLD}${MAGENTA}\]\u\[$WHITE\]@\[$ORANGE\]\h\[$WHITE\]:\[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" => \[$PURPLE\](\")\[$PURPLE\]\$(parse_git_branch)\$([[ -n \$(git branch 2> /dev/null) ]] && echo \")\")\[$WHITE\]\$ \[$RESET\]"
 
-PS1="\[${BOLD}${MAGENTA}\]\u\[$WHITE\]@\[$LIGHTRED\]\h\[$WHITE\]:\[$GREEN\]\w\[$WHITE\]\$(${dvcs_function})\[$RESET\] $ "
+PS1="\[${BOLD}${MAGENTA}\]\u\[$GRAY\]@\[$LIGHTRED\]\h\[$WHITE\]:\[$GREEN\]\w\[$WHITE\]\$(${dvcs_function})\[$RESET\] $ "
             
