@@ -1,3 +1,4 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 export PATH=/usr/local/bin:$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/Developer5/usr/bin
+export PATH=$PATH:/Users/MrMaksimize/bin
