@@ -1,6 +1,7 @@
 [alias]
 	# View the SHA, description, and history graph of the latest 20 commits
-	l = log --pretty=oneline -n 20 --graph
+	last = cat-file commit HEAD
+       lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	# View the current working tree status using the short format
 	s = status -s
 	# Diff
@@ -21,13 +22,18 @@
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
-
+[user]
+	name = Maksim Pecherskiy
+	email = max@maksimize.com
+	
 [core]
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	# Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
-	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	#whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	filemode = false
+	autocrlf = input
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -67,3 +73,5 @@
 	pushInsteadOf = "git://gist.github.com/"
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
+[rerere]
+	enabled = 1

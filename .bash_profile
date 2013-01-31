@@ -26,4 +26,11 @@ export LANG="en_US"
 complete -W "NSGlobalDomain" defaults
 
 # Add `killall` tab completion for common apps
-complete -o "nospace" -W "Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer" killall
+complete -o "nospace" -W "Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer" killallexport PATH=/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
+export PATH=/Volumes/Cloud9/Cloud9.app/Contents/installs/c9local/bin:$PATH
+export PATH=/Volumes/Cloud9/Cloud9.app/Contents/installs/c9local/bin:$PATH
+export PATH=/Volumes/Cloud9/Cloud9.app/Contents/installs/c9local/bin:$PATH
+export PATH=/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
+source ~/.megalodon.profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
