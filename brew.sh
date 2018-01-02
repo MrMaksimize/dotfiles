@@ -76,10 +76,12 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
+brew install dark-mode
 #brew install exiv2
 brew install git
-brew install git-lfs
 brew install hub
+brew install git-lfs
+brew install gpg
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
@@ -87,6 +89,7 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
+brew install speedtest_cli
 brew install rlwrap
 brew install ssh-copy-id
 brew install tree
