@@ -40,8 +40,7 @@ brew install gnupg
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
-brew install screen
-brew install homebrew/php/php56 --with-gmp
+brew install tmux
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -80,6 +79,7 @@ brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
+brew install hub
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
