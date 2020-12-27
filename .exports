@@ -32,3 +32,9 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+export CPLUS_INCLUDE_PATH=/usr/include/gdal
+export C_INCLUDE_PATH=/usr/include/gdal
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Code/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH

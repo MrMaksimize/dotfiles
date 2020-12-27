@@ -1,0 +1,5 @@
+This module implements a data source for a simple memory-resident ("local") data table with an essential API of `getRowCount()`, `getValue(x,y)` to get a cell, and `getSchema()` (to get column information implicit in the data).
+
+This essential API is all that is required by **Hypergrid v3.** Other methods are also included to set up the data row array (`setData(arr)`), get individual rows (`getRow(y)`), _etc.,_ but these are not required by Hypergrid. [_API documentation_](https://github.com/fin-hypergrid/core/wiki/Data-Model-API)
+
+The current version `datasaur-local@3.0.0` should _not_ be considered backward compatible to the previously published version `datasaur-local@1.0.0` and certainly not compatible with **Hypergrid v2** which had its own local data source (./src/lib/DataSourceOrigin.js) extended from an entirely different base class (`fin-hypergrid-data-source-base@0.4.11`).

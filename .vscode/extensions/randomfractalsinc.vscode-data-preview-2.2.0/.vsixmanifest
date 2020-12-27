@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="vscode-data-preview" Version="2.2.0" Publisher="RandomFractalsInc"/>
+    <DisplayName>Data Preview</DisplayName>
+    <Description xml:space="preserve">Data Preview 🈸 extension for importing 📤 viewing 🔎 slicing 🔪 dicing 🎲 charting 📊 &amp; exporting 📥 large JSON array/config, YAML, Apache Arrow, Avro &amp; Excel data files</Description>
+    <Tags>dataViz,data tools,data preview,data schema,data view,data viewer,data inspector 🕵️,charts,grid,editable grid,graph,large data,async data,http data,remote data,data formatter,data export,data import,markdown table,json array,json line,jsonl,json5,hjson,ndjson,arrow,avro,parquet,config,env,properties,ini,yaml,yml,Excel,workbook,spreadsheet,csv,tsv,txt,tab,dif,ods,xls,xlsb,xlsx,xlsm,xml,html,keybindings,json,JSON,__ext_json,JSON5,__ext_json5,JSON Line,__ext_jsonl,__ext_ndjson,HJSON,__ext_hjson,Arrow,__ext_arrow,__ext_arr,Avro,__ext_avro,Parquet,__ext_parquet,__ext_parq,Configuration,__ext_config,Environment,__ext_env,Properties,__ext_properties,INI,__ext_ini,YAML,__ext_yaml,__ext_yml,CSV,__ext_csv,TSV,__ext_tsv,__ext_tab,excel,__ext_dif,__ext_ods,__ext_xls,__ext_xlsb,__ext_xlsm,__ext_xlsx,md</Tags>
+    <Categories>Data Science,Formatters,Programming Languages,Visualization</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.49.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/RandomFractals/vscode-data-preview" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/RandomFractals/vscode-data-preview" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/RandomFractals/vscode-data-preview" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/RandomFractals/vscode-data-preview/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/RandomFractals/vscode-data-preview/README.md" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#333" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/images/data-preview.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/data-preview.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
