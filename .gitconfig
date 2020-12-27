@@ -188,3 +188,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Maksim Pecherskiy
+	email = max@maksimize.com
